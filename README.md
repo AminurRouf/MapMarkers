@@ -20,7 +20,7 @@ to show how you can easily swap out different datasources to display google mark
   }
 ~~~
 
-By swapping these two lines out, you are effectively swapping out the data source of the Map markers (/App_Data/Locations.xml to /App_Data/Locations.json  ),
+By swapping the two lines above around, you are effectively swapping the data source of the Map markers (/App_Data/Locations.xml to /App_Data/Locations.json),
 without having to change any other part of the system.
 
 ##
