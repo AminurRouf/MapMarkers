@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locations>
+  <Location Name="Birmingham" Latitude="52.480372" Longitude="-1.897154" />
+  <Location Name="Stockton" Latitude="54.5442828" Longitude="-1.3297485" />
+  <Location Name="Langley - Head Office" Latitude="51.490435" Longitude="-0.542273" />
+  <Location Name="Leeds" Latitude="53.780600" Longitude="-1.580270" />
+</Locations>

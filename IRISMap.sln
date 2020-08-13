@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRISMap", "IRISMap\IRISMap.csproj", "{FA8B73C6-063E-4FAC-8214-64AFFFEB1933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRISMap.Tests", "IRISMap.Tests\IRISMap.Tests.csproj", "{883749B4-016C-49E9-BD92-900E48B1B999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA8B73C6-063E-4FAC-8214-64AFFFEB1933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8B73C6-063E-4FAC-8214-64AFFFEB1933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8B73C6-063E-4FAC-8214-64AFFFEB1933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8B73C6-063E-4FAC-8214-64AFFFEB1933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883749B4-016C-49E9-BD92-900E48B1B999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883749B4-016C-49E9-BD92-900E48B1B999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883749B4-016C-49E9-BD92-900E48B1B999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883749B4-016C-49E9-BD92-900E48B1B999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EBCC765-2669-4178-B619-A024CE84C83A}
+	EndGlobalSection
+EndGlobal

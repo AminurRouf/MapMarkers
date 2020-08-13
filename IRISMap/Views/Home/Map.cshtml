@@ -1,0 +1,34 @@
+﻿@model IRISMap.ViewModels.LocationMapViewModel
+
+@{
+    ViewBag.Title = "Map Markers";
+
+}
+
+<h2>IRIS Office Locations</h2>
+
+<div id="mapDiv" style="width:100%;height:400px;"></div>  
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAK13MHN9nXrgbIHDdU-Ps4CNEWISBjJo"></script>
+<script type="text/javascript">  
+    var mapMarkers = @Html.Raw(Model.MapMarkers);
+    window.onload = function() {
+        var mapOptions = {
+            center: new google.maps.LatLng(mapMarkers[0].lat, mapMarkers[0].lng),
+            zoom: 5,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("mapDiv"), mapOptions);
+
+        mapMarkers.forEach(function(mark) {
+            var coordinates = new google.maps.LatLng(mark.lat, mark.lng);
+            new google.maps.Marker({
+                position: coordinates,
+                map: map,
+                title: coordinates.title
+            });
+        });
+    }
+
+</script> 

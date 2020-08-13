@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Name": "Birmingham",
+        "Latitude": "52.480372",
+        "Longitude": "-1.897154"
+    },
+    {
+        "Name": "Stockton",
+        "Latitude": "54.5442828",
+        "Longitude": "-1.3297485"
+    },
+    {
+        "Name": "Langley - Head Office",
+        "Latitude": "51.490435",
+        "Longitude": "-0.542273"
+    },
+    {
+        "Name": "Leeds",
+        "Latitude": "53.780600",
+        "Longitude": "-1.580270"
+    }
+]
